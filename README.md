@@ -3,7 +3,12 @@
 ## Modded Minecraft SMP in Steampunk style based around newest Create: Aeronautics.
 <img width="1000" height="300" alt="Latest Update" src="https://simplefox.studio/wp-content/uploads/updatebannerplaceholder.png" />
 
+---
 
+### Minecraft Version: 1.21.1
+### NeoForge Version: 21.1.233
+
+---
 
 # Modlist
 | Mod Name | Version | Author(s) |
