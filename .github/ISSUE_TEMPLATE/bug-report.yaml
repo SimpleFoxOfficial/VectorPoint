@@ -1,0 +1,67 @@
+name: "🐛 Bug Report"
+description: "Report a bug or crash in the mod"
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please make sure to check if this issue has already been reported.
+  
+  - type: checkboxes
+    id: pre-check
+    attributes:
+      label: Pre-report Checklist
+      options:
+        - label: I have searched the existing issues to ensure this is not a duplicate.
+          required: true
+        - label: I have checked the modpack/dependencies to make sure it's not a conflict with another mod.
+          required: true
+
+  - type: dropdown
+    id: mc-version
+    attributes:
+      label: Minecraft Version
+      options:
+        - 1.21.1
+        - 1.20.1
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mod-version
+    attributes:
+      label: Mod Version
+      options:
+        - Latest Release
+        - Development Build
+        - Other (Specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What went wrong? Be as descriptive as possible.
+      placeholder: I was placing a block, and the game crashed...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: How can I trigger this bug?
+      placeholder: 1. Do this... 2. Then do that...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash Logs / Debug Info
+      description: If you have a crash report, please paste it here or link to a pastebin.
+      placeholder: Paste your log here...
+      render: shell
