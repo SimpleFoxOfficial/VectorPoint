@@ -5,10 +5,17 @@
 <h2 align="center">Modded Minecraft SMP in Steampunk style based around newest Create: Aeronautics.</h2>
 <img width="1000" height="300" alt="Latest Update" src="https://simplefox.studio/wp-content/uploads/updatebannerplaceholder.png" />
 
+<div align="center">
+
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?&logo=discord&logoColor=white)](https://discord.gg/sGJ5qKSv64)
+&nbsp;
+[![Trello](https://img.shields.io/badge/Trello-Board-0079BF?&logo=trello&logoColor=white)](https://trello.com/b/2Pxq0v1X/vector-point)
+&nbsp;
+[![Webmap](https://img.shields.io/badge/Webmap-Live-28a745?&logo=googlemaps&logoColor=white)](http://play.simplefox.studio:8100/)
+
+</div>
 
 Warning: This is strictly **whitelisted** server and requires verification via our community Discord server. You will not be able to join our Minecraft server without requesting verification in Discord.
-
-Here's the invite link, we don't bite! - https://discord.gg/sGJ5qKSv64
 
 
 ---
