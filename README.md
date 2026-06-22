@@ -1,7 +1,15 @@
 <img width="1025" height="322" alt="vectorpointlogo01" src="https://github.com/SimpleFoxOfficial/VectorPoint/blob/a307da4b05e639483b216660064ad7c09bc7f440/vectorpointlogo01.png" />
 
-## Modded Minecraft SMP in Steampunk style based around newest Create: Aeronautics.
+<h1 align="center">Ponder. Build. Create.</h1>
+
+<h2 align="center">Modded Minecraft SMP in Steampunk style based around newest Create: Aeronautics.</h2>
 <img width="1000" height="300" alt="Latest Update" src="https://simplefox.studio/wp-content/uploads/updatebannerplaceholder.png" />
+
+
+Warning: This is strictly **whitelisted** server and requires verification via our community Discord server. You will not be able to join our Minecraft server without requesting verification in Discord.
+
+Here's the invite link, we don't bite! - https://discord.gg/sGJ5qKSv64
+
 
 ---
 
