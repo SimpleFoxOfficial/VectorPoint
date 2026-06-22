@@ -1,6 +1,6 @@
 name: "Bug Report"
 description: "Report a bug or crash in the modpack"
-title: "Your title here"
+title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
