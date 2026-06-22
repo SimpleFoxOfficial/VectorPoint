@@ -55,18 +55,18 @@ body:
           required: false
 
   - type: dropdown
-  id: launcher
-  attributes:
-    label: Launcher
-    description: "Which launcher are you using to play the pack?"
-    options:
-      - Prism Launcher
-      - Modrinth App
-      - CurseForge App
-      - Other
-  validations:
-    required: true
-  
+    id: launcher
+    attributes:
+      label: Launcher
+      description: "Which launcher are you using to play the pack?"
+      options:
+        - Prism Launcher
+        - Modrinth App
+        - CurseForge App
+        - Other
+    validations:
+      required: true
+
   - type: upload
     id: latest-log
     attributes:
