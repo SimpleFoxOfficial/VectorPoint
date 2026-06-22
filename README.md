@@ -1,9 +1,13 @@
+<div align="center">
 <img width="1025" height="322" alt="vectorpointlogo01" src="https://github.com/SimpleFoxOfficial/VectorPoint/blob/a307da4b05e639483b216660064ad7c09bc7f440/vectorpointlogo01.png" />
+</div>
 
 <h1 align="center">Ponder. Build. Create.</h1>
 
 <h2 align="center">Modded Minecraft SMP in Steampunk style based around newest Create: Aeronautics.</h2>
+<div align="center">
 <img width="1000" height="300" alt="Latest Update" src="https://simplefox.studio/wp-content/uploads/updatebannerplaceholder.png" />
+</div>
 
 <div align="center">
 
@@ -12,6 +16,8 @@
 [![Trello](https://img.shields.io/badge/Trello-Board-0079BF?&logo=trello&logoColor=white)](https://trello.com/b/2Pxq0v1X/vector-point)
 &nbsp;
 [![Webmap](https://img.shields.io/badge/Webmap-Live-28a745?&logo=googlemaps&logoColor=white)](http://play.simplefox.studio:8100/)
+&nbsp;
+[![Donate](https://img.shields.io/badge/Donate-Kofi-ff5a16?&logo=kofi&logoColor=white)](https://ko-fi.com/simplefox)
 
 </div>
 
