@@ -1,13 +1,14 @@
-name: "🐛 Bug Report"
-description: "Report a bug or crash in the mod"
+name: "Bug Report"
+description: "Report a bug or crash in the modpack"
 title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug! Please make sure to check if this issue has already been reported.
-  
+        ### ⚠️ Before you submit
+        Please make sure to check if this issue has already been reported.
+
   - type: checkboxes
     id: pre-check
     attributes:
@@ -15,37 +16,46 @@ body:
       options:
         - label: I have searched the existing issues to ensure this is not a duplicate.
           required: true
-        - label: I have checked the modpack/dependencies to make sure it's not a conflict with another mod.
+        - label: I have tried temporarily removing my custom additions to see if they cause the issue.
           required: true
 
-  - type: dropdown
-    id: mc-version
+  - type: input
+    id: modpack-version
     attributes:
-      label: Minecraft Version
-      options:
-        - 1.21.1
-        - 1.20.1
-        - Other
+      label: Modpack Version
+      description: "Enter the version number of the pack you are playing."
+      placeholder: "0.0.1.0"
     validations:
       required: true
 
   - type: dropdown
-    id: mod-version
+    id: launcher
     attributes:
-      label: Mod Version
+      label: Launcher
+      description: "Which launcher are you using to play the pack?"
       options:
-        - Latest Release
-        - Development Build
-        - Other (Specify below)
+        - Prism Launcher
+        - Modrinth App
+        - CurseForge App
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: custom-mods
+    attributes:
+      label: Custom mods installed
+      description: "List any mods you have added yourself that are not part of the base pack. If none, type 'None'."
+      placeholder: "e.g., Sodium, Iris, or 'None'"
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: Describe the bug
-      description: What went wrong? Be as descriptive as possible.
-      placeholder: I was placing a block, and the game crashed...
+      label: Bug Summary
+      description: "What went wrong? Be as descriptive as possible."
+      placeholder: "I was placing a block, and the game crashed..."
     validations:
       required: true
 
@@ -53,15 +63,17 @@ body:
     id: reproduction
     attributes:
       label: Steps to reproduce
-      description: How can I trigger this bug?
-      placeholder: 1. Do this... 2. Then do that...
+      description: "How can I trigger this bug?"
+      placeholder: "1. Do this...\n2. Then do that..."
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: Crash Logs / Debug Info
-      description: If you have a crash report, please paste it here or link to a pastebin.
-      placeholder: Paste your log here...
+      label: Crash Logs / latest.txt
+      description: "Paste your crash report or content of your latest.txt here. (Pro-tip: You can also drag-and-drop the file into the issue body after submitting)."
+      placeholder: "Paste your log here..."
       render: shell
+    validations:
+      required: true
