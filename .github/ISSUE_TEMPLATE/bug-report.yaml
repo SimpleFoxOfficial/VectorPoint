@@ -1,12 +1,12 @@
 name: "Bug Report"
 description: "Report a bug or crash in the modpack"
-title: "[Bug]: "
+title: ""
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        ### ⚠️ Before you submit
+        ### Before you submit
         Please make sure to check if this issue has already been reported.
 
   - type: checkboxes
@@ -28,28 +28,6 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: launcher
-    attributes:
-      label: Launcher
-      description: "Which launcher are you using to play the pack?"
-      options:
-        - Prism Launcher
-        - Modrinth App
-        - CurseForge App
-        - Other
-    validations:
-      required: true
-
-  - type: input
-    id: custom-mods
-    attributes:
-      label: Custom mods installed
-      description: "List any mods you have added yourself that are not part of the base pack. If none, type 'None'."
-      placeholder: "e.g., Sodium, Iris, or 'None'"
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
@@ -68,12 +46,33 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: logs
+  - type: checkboxes
+    id: custom-mods
     attributes:
-      label: Crash Logs / latest.txt
-      description: "Paste your crash report or content of your latest.txt here. (Pro-tip: You can also drag-and-drop the file into the issue body after submitting)."
-      placeholder: "Paste your log here..."
-      render: shell
+      label: Additional Info
+      options:
+        - label: Custom mods installed
+          required: false
+
+    - type: dropdown
+    id: launcher
+    attributes:
+      label: Launcher
+      description: "Which launcher are you using to play the pack?"
+      options:
+        - Prism Launcher
+        - Modrinth App
+        - CurseForge App
+        - Other
     validations:
       required: true
+  
+  - type: upload
+    id: latest-log
+    attributes:
+      label: Latest Log File
+      description: |
+        Optionally upload your `/logs/latest.log` file.
+    validations:
+      required: false
+      accept: ".log,.txt"
