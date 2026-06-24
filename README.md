@@ -11,13 +11,13 @@
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?&logo=discord&logoColor=white)](https://discord.gg/sGJ5qKSv64)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?&style=plastic&logo=discord&logoColor=white)](https://discord.gg/sGJ5qKSv64)
 &nbsp;
-[![Trello](https://img.shields.io/badge/Trello-Board-0079BF?&logo=trello&logoColor=white)](https://trello.com/b/2Pxq0v1X/vector-point)
+[![Trello](https://img.shields.io/badge/Trello-Board-0079BF?&style=plastic&logo=trello&logoColor=white)](https://trello.com/b/2Pxq0v1X/vector-point)
 &nbsp;
-[![Webmap](https://img.shields.io/badge/Webmap-Live-28a745?&logo=googlemaps&logoColor=white)](http://play.simplefox.studio:8100/)
+[![Webmap](https://img.shields.io/badge/Webmap-Live-28a745?&style=plastic&logo=googlemaps&logoColor=white)](http://play.simplefox.studio:8100/)
 &nbsp;
-[![Donate](https://img.shields.io/badge/Donate-Kofi-ff5a16?&logo=kofi&logoColor=white)](https://ko-fi.com/simplefox)
+[![Donate](https://img.shields.io/badge/Donate-Kofi-ff5a16?&style=plastic&logo=kofi&logoColor=white)](https://ko-fi.com/simplefox)
 
 </div>
 
