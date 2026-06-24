@@ -18,6 +18,9 @@
 [![Webmap](https://img.shields.io/badge/Webmap-Live-28a745?&style=plastic&logo=googlemaps&logoColor=white)](http://play.simplefox.studio:8100/)
 &nbsp;
 [![Donate](https://img.shields.io/badge/Donate-Kofi-ff5a16?&style=plastic&logo=kofi&logoColor=white)](https://ko-fi.com/simplefox)
+&nbsp;
+[![Github](https://img.shields.io/github/downloads/simplefoxofficial/vectorpoint/total?style=plastic&logo=github&label=GitHub&color=purple
+)](https://github.com/SimpleFoxOfficial/VectorPoint)
 
 </div>
 
