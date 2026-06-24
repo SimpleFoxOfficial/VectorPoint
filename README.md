@@ -11,7 +11,8 @@
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?&style=plastic&logo=discord&logoColor=white)](https://discord.gg/sGJ5qKSv64)
+[![Discord](https://img.shields.io/discord/1511760480794837052?style=plastic&logo=discord&logoColor=white&label=Discord&color=5865F2
+)](https://discord.gg/sGJ5qKSv64)
 &nbsp;
 [![Trello](https://img.shields.io/badge/Trello-Board-0079BF?&style=plastic&logo=trello&logoColor=white)](https://trello.com/b/2Pxq0v1X/vector-point)
 &nbsp;
