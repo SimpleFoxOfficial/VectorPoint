@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1025" height="322" alt="vectorpointlogo01" src="https://github.com/SimpleFoxOfficial/VectorPoint/blob/a307da4b05e639483b216660064ad7c09bc7f440/vectorpointlogo01.png" />
+<img width="1025" height="322" alt="vectorpointlogo01" src="https://github.com/SimpleFoxOfficial/VectorPoint/blob/main/vectorpointlogo01.png?raw=true" />
 </div>
 
 <h1 align="center">Ponder. Build. Create.</h1>
