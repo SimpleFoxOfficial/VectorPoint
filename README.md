@@ -197,6 +197,7 @@ Warning: This is strictly **whitelisted** server and requires verification via o
 | [pv-addon-sculk](https://modrinth.com/mod/7dI2zrDy) | 1.1.0 | Apehum |
 | [pv-addon-soundphysics](https://modrinth.com/mod/K1y8brkJ) | 1.1.2 | Apehum |
 | [pv-addon-spectator](https://modrinth.com/mod/bZwNKr3n) | 1.1.0 | Apehum |
+| [pv-addon-wwalkietalkie](https://modrinth.com/mod/pv-addon-walkietalkie) | 1.0.x | SimpleFox, MrEri |
 | [pv-addon-whisper](https://modrinth.com/mod/pZxauj81) | 1.1.0 | Apehum |
 
 
