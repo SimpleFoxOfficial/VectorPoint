@@ -1,0 +1,14 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"create:linked_controller","components":{"create:linked_controller_items":[{"slot":0,"item":{"id":"create:brass_hand","count":1}},{"slot":1,"item":{"id":"minecraft:red_dye","count":1}},{"slot":2,"item":{"id":"create:brass_hand","count":1}},{"slot":3,"item":{"id":"minecraft:blue_dye","count":1}},{"slot":4,"item":{"id":"create:brass_hand","count":1}},{"slot":5,"item":{"id":"minecraft:purple_dye","count":1}},{"slot":6,"item":{"id":"create:brass_hand","count":1}},{"slot":7,"item":{"id":"minecraft:lime_dye","count":1}},{"slot":8,"item":{"id":"create:brass_hand","count":1}},{"slot":9,"item":{"id":"minecraft:cyan_dye","count":1}},{"slot":10,"item":{"id":"create:brass_hand","count":1}},{"slot":11,"item":{"id":"minecraft:orange_dye","count":1}}]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"simulated:physics_assembler","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"simulated:rope_connector","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:diamond_pickaxe","components":{"minecraft:damage":857}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:crafting/schematics/schematicannon","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:arrow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:brown_seat"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"simulated:red_portable_engine","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"offroad:wheel_mount","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"createcobblestone:mechanical_generator","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:wheat_seeds"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

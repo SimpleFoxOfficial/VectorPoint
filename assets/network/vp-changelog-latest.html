@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Changelog</title>
+<style>
+@font-face{font-family:'Minecraft Rus';src:url('https://cdn.jsdelivr.net/gh/South-Paw/typeface-minecraft@master/font/minecraft.woff') format('woff')}
+:root {
+  --c-normal: #ffffff;
+  --c-bold: #ffae00;
+  --c-italic: #9e9e9e;
+  --c-code: #f0c070;
+  --c-h1: #729FAE;
+  --c-h2: #729FAE;
+  --c-h3: #b3b3b3;
+  --c-bullet: #74919a;
+  --c-link: #5fc87a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;min-height:100vh}
+body{background:#1a1e26;color:var(--c-normal);font-family:'Minecraft Rus',monospace;display:flex;flex-direction:column;min-height:100vh}
+.cl-wrap{width:100%;display:flex;flex-direction:column;flex:1;min-height:100vh}
+.cl-section{width:100%}
+.cl-label{background:#101418;font-family:'Minecraft Rus',monospace;font-size:19px;color:#729FAE;padding:12px 21px;letter-spacing:.04em;display:block}
+.cl-items{background:#212730;padding:12px 21px 18px}
+.cl-section:last-child .cl-items{flex:1;min-height:calc(100vh - 200px)}
+.cl-p{font-family:'Minecraft Rus',monospace;font-size:18px;color:var(--c-normal);line-height:1.9}
+.cl-h1{font-family:'Minecraft Rus',monospace;font-size:26px;color:var(--c-h1);line-height:2;font-weight:700}
+.cl-h2{font-family:'Minecraft Rus',monospace;font-size:22px;color:var(--c-h2);line-height:2;font-weight:700}
+.cl-h3{font-family:'Minecraft Rus',monospace;font-size:19px;color:var(--c-h3);line-height:2;font-weight:700}
+.cl-hr{border:none;border-top:1px solid #3a3f50;margin:8px 0}
+.cl-item{font-family:'Minecraft Rus',monospace;font-size:18px;color:var(--c-normal);line-height:1.9;padding-left:21px;position:relative}
+.cl-item::before{content:'•';position:absolute;left:3px;color:var(--c-bullet)}
+.cl-b{color:var(--c-bold);font-weight:700;font-family:'Minecraft Rus',monospace}
+.cl-i{color:var(--c-italic);font-style:italic;font-family:'Minecraft Rus',monospace}
+.cl-code{background:#0a0e14;padding:0 6px;font-family:'Courier New',monospace;font-size:16px;color:var(--c-code)}
+.cl-pre{background:#0a0e14;border:1px solid #3a3f50;padding:10px 14px;margin:6px 0;font-family:'Courier New',monospace;font-size:15px;color:var(--c-code);white-space:pre-wrap}
+.cl-link{color:var(--c-link);text-decoration:underline;font-family:'Minecraft Rus',monospace}
+.cl-blockquote{border-left:3px solid #729FAE;padding-left:12px;opacity:.8;font-style:italic;margin:4px 0;font-family:'Minecraft Rus',monospace}
+.cl-items *{font-family:'Minecraft Rus',monospace}
+.cl-items .cl-code,.cl-items .cl-pre{font-family:'Courier New',monospace}
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#555e6e;border-radius:0}
+::-webkit-scrollbar-button{display:none}
+::-webkit-scrollbar-corner{background:transparent}
+*{scrollbar-width:thin;scrollbar-color:#555e6e transparent}
+</style>
+</head>
+<body>
+<div class="cl-wrap">
+  <div class="cl-section">
+    <div class="cl-label">Changes</div>
+    <div class="cl-items"><div class="cl-item"><span class="cl-b">New Feature:</span> Walkie-Talkie!</div><div class="cl-item">Changed Sun &amp; Moon textures to fit with <span class="cl-i">Stellar View</span></div></div>
+  </div>
+  <div class="cl-section">
+    <div class="cl-label">Bug-Fixes</div>
+    <div class="cl-items"><div class="cl-item">Got rid of configs, resulting in severe perfomance boost</div><div class="cl-item">Fixed Backpacks not applying button colors</div></div>
+  </div>
+  <div class="cl-section">
+    <div class="cl-label">New Feature: Walkie-Talkie</div>
+    <div class="cl-items"><div class="cl-p"><span class="cl-i">pv-addon-walkietalkie</span> made specifically for this modpack has been added to the game!</div><div style="height:6px"></div><div class="cl-item">Right click to speak</div><div class="cl-item">Shift-right click to configure frequency</div><div class="cl-item">Right click tap to toggle</div><div style="height:6px"></div><div class="cl-p">Of course you can also craft it in survival!</div></div>
+  </div>
+</div>
+</body>
+</html>

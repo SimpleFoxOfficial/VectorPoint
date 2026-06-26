@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:note_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"walkietalkie:walkie_talkie","components":{"walkietalkie:frequency":42,"walkietalkie:enabled":true}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"walkietalkie:walkie_talkie","components":{"walkietalkie:enabled":true}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:gyroscopic_mechanism"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_connected:empty_fan_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_connected:fan_splashing_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

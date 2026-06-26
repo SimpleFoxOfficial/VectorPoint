@@ -1,0 +1,159 @@
+debug = false
+disable_crowdin = false
+check_for_updates = true
+
+[activations.46927964-3207-377a-84d7-26a82d52be1e]
+type = "PUSH_TO_TALK"
+toggle = true
+[activations.4aec07ba-d109-3345-9a0a-92022a116cd0]
+type = "VOICE"
+toggle = false
+[activations.fa013abb-5e5b-31a0-b6c4-b58f8c3cdbf0]
+type = "VOICE"
+toggle = false
+
+[[key_bindings]]
+name = "key.plasmovoice.general.mute_microphone"
+any_context = false
+category = "key.plasmovoice.general"
+
+[[key_bindings.keys]]
+code = 302
+type = "KEYSYM"
+
+[[key_bindings]]
+name = "key.plasmovoice.broadcast.ptt"
+any_context = true
+category = "hidden"
+
+[[key_bindings.keys]]
+code = 346
+type = "KEYSYM"
+
+[[key_bindings]]
+name = "key.plasmovoice.priority.ptt"
+any_context = true
+category = "hidden"
+
+[[key_bindings.keys]]
+code = 345
+type = "KEYSYM"
+
+[[key_bindings]]
+name = "key.plasmovoice.groups.ptt"
+any_context = true
+category = "hidden"
+
+[[key_bindings.keys]]
+code = 3
+type = "MOUSE"
+
+[[key_bindings]]
+name = "key.plasmovoice.groups.toggle"
+any_context = false
+category = "hidden"
+
+[[key_bindings.keys]]
+code = 346
+type = "KEYSYM"
+
+[servers.bcbed5cd-ab5a-4e44-82fc-ddddad5a3b9a.distances]
+4aec07ba-d109-3345-9a0a-92022a116cd0 = 32
+[servers.ffa55d25-434f-4659-8b20-64509761b58d.distances]
+4aec07ba-d109-3345-9a0a-92022a116cd0 = 32
+
+[addons.pv-addon-soundphysics]
+enabled = true
+mic_reverb = true
+mic_reverb_volume = 0.7
+
+[voice]
+disabled = false
+microphone_disabled = false
+activation_threshold = -60.0
+input_device = "OpenAL Soft on Chat Mic (TC-HELICON GoXLR)"
+output_device = ""
+disable_input_device = false
+use_javax_input = false
+microphone_volume = 2.0
+noise_suppression = false
+volume = 2.0
+compressor_limiter = true
+sound_occlusion = false
+directional_sources = false
+hrtf = false
+stereo_capture = false
+
+[voice.volumes.broadcast]
+volume = 1.5
+[voice.volumes.groups]
+volume = 1.25
+[voice.volumes.priority]
+volume = 1.5
+[voice.volumes.proximity]
+volume = 1.1
+[voice.volumes.source_0c57ad24-bd30-4f5b-a36c-fd18de5aa203]
+volume = 2.0
+[voice.volumes.source_26829bba-0635-38fa-9c0b-1b2c96f30972]
+volume = 0.3
+[voice.volumes.source_429fc319-d2d2-49a8-b439-5031bd135a93]
+volume = 2.0
+[voice.volumes.source_5354d7f1-c097-38c2-afc3-3b2f3cbaa2e0]
+volume = 2.0
+[voice.volumes.source_5ca5bb73-7692-33a8-b458-f056e264294d]
+volume = 1.5
+[voice.volumes.source_65be2d04-1ac5-3546-8054-c8b121758a10]
+volume = 1.5
+[voice.volumes.source_6a119ee6-5d50-3099-b678-40eca6c5b0b2]
+volume = 1.5
+[voice.volumes.source_7d23301c-1baa-34d1-9c89-3db6ab4efe02]
+volume = 1.5
+[voice.volumes.source_87b88622-3fa7-3710-84f9-621c6b28f53d]
+volume = 1.5
+[voice.volumes.source_917ad644-2ee2-3d4a-b9af-9748b081ffbb]
+volume = 0.5
+[voice.volumes.source_b4cc81b2-3595-4e36-962f-60b5a6ec345e]
+volume = 2.0
+[voice.volumes.source_bfc3d2f7-6b12-4047-bbe6-9191fbc67358]
+volume = 2.0
+[voice.volumes.source_c177a277-9f2d-431e-9232-0bc9fa1fc865]
+volume = 2.0
+[voice.volumes.source_da16702e-15d9-4f2b-be6b-cca9dfed7d62]
+volume = 0.85
+[voice.volumes.walkie_talkie]
+volume = 1.0
+[voice.volumes.whisper]
+volume = 2.0
+
+[advanced]
+visualize_voice_distance = true
+visualize_voice_distance_on_join = false
+compressor_threshold = -10
+limiter_threshold = -6
+directional_sources_angle = 145
+stereo_sources_to_mono = false
+panning = true
+source_types_overlap = "MUTE_PROXIMITY"
+camera_sound_listener = true
+exponential_volume_slider = true
+exponential_distance_gain = true
+jitter_packet_delay = 3
+al_playback_buffers = 5
+adaptive_jitter_buffer = false
+
+[overlay]
+show_activation_icon = true
+activation_icon_position = "BOTTOM_LEFT"
+show_source_icons = 0
+show_static_source_icons = true
+overlay_enabled = true
+overlay_position = "BOTTOM_RIGHT"
+overlay_style = "NAME_SKIN"
+
+[overlay.source_states]
+broadcast = "ON"
+groups = "ALWAYS"
+priority = "ON"
+proximity = "ON"
+walkie_talkie = "ON"
+whisper = "ON"

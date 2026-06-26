@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create_connected:redstone_link_wildcard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:phantom_membrane"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

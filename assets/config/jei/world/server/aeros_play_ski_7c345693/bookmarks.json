@@ -1,0 +1,18 @@
+[
+  {"version":2},
+  {"recipe":"create:crafting/schematics/schematicannon","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/schematics/empty_schematic","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"terralith:dispenser_alt","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:diorite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"starcatcher:starcatcher_rod","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"simulated:mechanical_crafting/plunger_launcher","recipeType":"create:mechanical_crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create_dragons_plus:crafting/fragile_fluid_tank","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crafting/materials/transmitter","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"simulated:redstone_magnet","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"simulated:spring","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"createcobblestone:mechanical_generator","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"simulated:rope_connector","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"simulated:rope_coupling","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"another_furniture:yellow_curtain","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"exposure:interplanar_projector","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

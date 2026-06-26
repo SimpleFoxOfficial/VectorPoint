@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:spout"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exposure:developed_color_film"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"exposure:developed_black_and_white_film"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"blockbox:brazier"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cherry_door"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"charta:dealer_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"charta:mangrove_card_table"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,22 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:phantom_membrane"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:glider"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:ancient_sieve"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:crafting_station"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:bag_o_wind"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:studded_pouch","components":{"minecraft:custom_data":{"DirtyFlag":0,"Inventory":{"Size":18,"Items":[]}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:latched_pouch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:pouch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:gilded_farming_pot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:farming_pot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:climbing_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:lantern"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:studded_pouch","components":{"minecraft:custom_data":{"DirtyFlag":1,"Inventory":{"Size":18,"Items":[]}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:studded_pouch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"modular_backpacks:linking":1}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modular_backpacks:backpack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"etched:album_cover"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_aeronautics_toolgun:magnetic_gun"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_aeronautics_toolgun:survival_structure_tool"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

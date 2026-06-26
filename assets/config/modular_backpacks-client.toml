@@ -1,0 +1,18 @@
+[backpack]
+	#Reopen the backpack menu automatically when reopening inventory
+	reopenBackpackWithInventory = true
+	#
+	#Tint the backpack UI using the backpack dye color
+	showBackpackUiColor = true
+
+[enchantments]
+	#If true, shows Backpack enchantment descriptions
+	showEnchantmentDescriptions = true
+
+[rationing]
+	#Render rationing reserve directly on top of hunger instead of above it
+	rationingOverlayOnHunger = false
+
+[cosmetics]
+	#Enable backpack cosmetic sounds
+	enableCosmeticSounds = true
