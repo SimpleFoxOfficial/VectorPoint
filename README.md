@@ -6,7 +6,7 @@
 
 <h2 align="center">Modded Minecraft SMP in Steampunk style based around newest Create: Aeronautics.</h2>
 <div align="center">
-<img width="1000" height="300" alt="Latest Update" src="https://github.com/user-attachments/assets/5bbb1f7b-21b4-447e-a998-acedbe8da798" />
+<img width="1000" height="300" alt="Latest Update" src="https://github.com/SimpleFoxOfficial/VectorPoint/blob/main/assets/network/updatebannerplaceholder.png?raw=true" />
 </div>
 
 <div align="center">
