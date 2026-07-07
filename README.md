@@ -139,7 +139,7 @@ Warning: This is strictly **whitelisted** server and requires verification via o
 | [Mod Menu (NeoForge Edition)](https://modrinth.com/mod/31TqAmXC) | 1.0.2 | Raguto, foxy, Prospector, haykam821, TerraformersMC |
 | [Model Gap Fix](https://modrinth.com/mod/QdG47OkI) | 1.21-1.10 | MehVahdJukaar |
 | [ModernFix](https://modrinth.com/mod/nmDcB62a) | 5.27.14+mc1.21.1 | embeddedt |
-| [ModularBackpacks](https://modrinth.com/mod/modular-backpacks) (neoforge beta) | 0.2.0 | mralxart_, Crimson |
+| [ModularBackpacks](https://modrinth.com/mod/modular-backpacks) | 0.2.0 | mralxart_, Crimson |
 | [Moonlight Lib](https://modrinth.com/mod/twkfQtEc) | 1.21.1-3.0.18 | MehVahdJukaar |
 | [Mouse Tweaks](https://modrinth.com/mod/aC3cM3Vq) | 2.26.1 | Ivan Molodetskikh (YaLTeR) |
 | [Moyai](https://modrinth.com/mod/z7WhFkyW) | 1.21-2.1.7 | MehVahdJukaar |
